@@ -1,0 +1,11 @@
+ 
+<*.Resources>
+    <DataTemplate DataType="{x:Type A}">
+        <AView/>
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type B}">
+        <BView/>
+    </DataTemplate>
+</*.Resources>
+
+<ContentPresenter Content="{Binding}"/>
